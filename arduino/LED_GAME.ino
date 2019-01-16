@@ -87,7 +87,7 @@ button_down(void) {
 
 static bool
 pot4_pos(void) {
-  return (PING & 0x01);
+  return (PINB & 0x01);
 }
 
 struct AdcState {
